@@ -2,3 +2,5 @@ matplotlib
 numpy
 tensorflow
 scipy
+boto3
+python-dotenv
