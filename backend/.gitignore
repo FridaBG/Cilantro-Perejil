@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytest
+.cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode/IDEA
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Env/Dev variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# AWS CLI cache/config (if accidentally in project)
+.aws/
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# Frontend artifacts (if frontend lives here)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Ignore test database files
+*.sqlite3
+*.db
+
+# Ignore S3 keys or credential files
+.aws/
