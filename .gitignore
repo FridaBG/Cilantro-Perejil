@@ -3,3 +3,4 @@ node_modules
 **dataset**
 .idea
 images
+aws_img.py
